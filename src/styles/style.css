@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.darkone {
+    background-color:  rgb(28, 35, 46);
+}
+
+.darktwo {
+    background-color:  rgb(22, 28, 37);
+}
+
+@font-face {
+    font-family: f1;
+    src: url("./../../public/font/AsapCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: f2;
+    src: url("./../../public/font/AsapCondensed-Medium.ttf");
+}
+
+@font-face {
+    font-family: f3;
+    src: url("./../../public/font/AsapCondensed-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: f4;
+    src: url("./../../public/font/AsapCondensed-Bold.ttf");
+}
+
+.font1{
+    font-family: f1;
+}
+
+.font2{
+    font-family: f2;
+}
+
+.font3{
+    font-family: f3;
+}
+
+.font4{
+    font-family: f4;
+}
+
+.text-main-col{
+    color: #ff8f42;
+}
+
+
+.text-main-bg{
+    background-color: #ff8f42;
+}
+
+.text-notmain-bg{
+    background-color: #ff8e4273;
+}
+
+.border-main-col{
+    border-color: #ff8f42;
+}
+
+.logout:hover {
+    box-shadow:  0px 3px 10px #ff8f42;    
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(28, 35, 46);
+    width: 3px;
+    height: 3px;
+    display: block;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #ff8f42;
+    border-radius: 100px;
+}
+
+.w-for-3{
+    width: 31.9%;
+}
+
+.notop{
+    padding-top: 0px !important;
+}
+
+.noright{
+    padding-left: 0px !important;
+}
+
+.firebase-emulator-warning{
+    display: none;
+}
+
+.bordershow{
+    border: solid 3px #ff8f42 !important
+}
+
+.bordershow2{
+    border: solid 2px #ff8f42 ;
+    outline-style: none;
+}
