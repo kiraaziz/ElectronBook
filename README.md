@@ -43,8 +43,3 @@ Start the server
 ![App Screenshot](https://firebasestorage.googleapis.com/v0/b/electronbook-4c796.appspot.com/o/Capture%20d%E2%80%99%C3%A9cran%20(336).jpg?alt=media&token=91b301e1-1e74-4435-aba6-c7e7c478a575)
 
 
-## Tech Stack
-
-**Client:** React, TailwindCSS
-
-**Server:** Firebase
